@@ -16,6 +16,11 @@
     width: 100%;
 }
 
+.icono:hover, #logo-mascotillas:hover {
+  transform: scale(1.09);
+  transition: 150ms;
+}
+
 nav ul {
     margin: 0;
     padding: 0;
@@ -34,8 +39,12 @@ nav ul {
     padding: 10px;
     text-decoration: none;
     color: rgb(190, 30, 45);
+
   }
-  
+  nav ul li a:hover{
+    background-color: rgba(190, 30, 46, 0.1);
+    border-radius: 25px;
+  }
   nav ul li:hover > ul {
     display: block;
   }
@@ -113,11 +122,10 @@ header {
 .input-search {
     width: 500px;
     border-radius: 15px;
-    border: 1px solid rgb(190, 30, 45, 0.7);
+    border: none;
     height: 35px;
     color: #000;
     padding: 15px;
-
 }
 
 a {
