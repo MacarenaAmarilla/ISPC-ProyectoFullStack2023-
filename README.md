@@ -1,4 +1,4 @@
-# **MASCOTILLAS** :dog: :cat:
+# **MASCOTILLAS** :cat: :dog:
 
 Mascotillas es un proyecto e-commerce especializado en la venta de productos de alimentación y pet shop para mascotas. Nuestro objetivo es ser la solución práctica y accesible para los dueños de mascotas que buscan productos especializados para cuidar a sus animales de compañía.
 
