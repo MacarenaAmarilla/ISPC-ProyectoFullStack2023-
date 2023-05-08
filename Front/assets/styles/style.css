@@ -1,0 +1,283 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  line-height: 1.7;
+}
+
+.icono {
+  width: 30px;
+  height: 30px;
+  fill: rgb(190, 30, 45);
+  width: 100%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(190, 30, 45);
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 0;
+}
+
+nav ul ul li {
+  display: block;
+  width: 200px;
+}
+
+nav ul ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(190, 30, 45);
+}
+
+nav ul ul li:hover {
+  background-color: rgba(255, 79, 97, 0.1);
+}
+
+nav ul ul ul {
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+header {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding: 25px;
+  background-color: rgba(255, 79, 97, 0.37);
+}
+
+.header-buscador {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+
+  border-bottom: 1px solid rgb(190, 30, 45);
+}
+
+.header-buscador .icon-menu {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 50px;
+}
+
+.search {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.search i {
+  color: rgb(190, 30, 45);
+  margin: 5px;
+  font-size: 25px;
+}
+
+.input-search {
+  width: 500px;
+  border-radius: 15px;
+  border: 1px solid rgb(190, 30, 45, 0.7);
+  height: 35px;
+  color: #000;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: rgb(190, 30, 45);
+  font-weight: bold;
+  font-size: 15px;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+section h3 {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(190, 30, 45);
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.carousel-item img {
+  height: 400px; /* ajusta aquí la altura deseada */
+  width: 100%; /* para mantener la proporción de la imagen */
+}
+
+.card-footer a.btn {
+  background-color: #f00;
+  color: #fff;
+}
+
+.card-footer a.btn:hover {
+  background-color: blue;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: rgba(255, 79, 97, 0.37);
+  padding: 80px 0;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.linea-superior {
+  border-top: 1px solid black;
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.footer-links {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-links h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(190, 30, 45);
+  margin-bottom: 25px;
+  border-bottom: 2px solid rgb(190, 30, 45);
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+.footer-links ul li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(190, 30, 45);
+  display: block;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: rgb(152, 24, 36);
+  padding-left: 6px;
+}
+
+.social-link a {
+  display: inline-block;
+  min-height: 40px;
+  width: 40px;
+  background-color: rgb(190, 30, 45);
+  margin: 0 10px 10px o;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.social-link a:hover {
+  background-color: blue;
+}
+
+.element-footer {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  color: rgb(190, 30, 45);
+  margin-bottom: 10px;
+}
+
+.icon-logo {
+  margin-right: 10px;
+}
+
+h4.h3 {
+  border-top: 1px solid rgb(190, 30, 45);
+  padding-top: 20px;
+}
+
+.footer-legal {
+  position: relative;
+  top: 79px;
+  padding: 15px;
+  background-color: rgb(190, 30, 45);
+}
+
+.footer-legal {
+  font-size: 12px;
+  color: white;
+  text-align: auto;
+}
+
+a.font-weight-bold {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  .footer-row {
+    text-align: center;
+  }
+
+  .footer-links {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
