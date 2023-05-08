@@ -10,7 +10,7 @@ Mascotillas es un proyecto e-commerce especializado en la venta de productos de 
 - Macarena Belen Amarilla
 - Aram Manouk Guzelian
 - María Paz Mario
-- Florencia Victoria Córdoba
+- Florencia Victoria Córdoba Barrera
 - Gimenez Cristian Victor
 - Francisco Pereyra
 - Facundo Nicolas Perez
